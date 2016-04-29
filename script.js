@@ -12,5 +12,10 @@ $(document).ready(function() {
     for(var i = 0; i <rows; i++) {
       $("#wrapper").append($row.clone());
     };
+
+    $(".square").hover(function() {
+       $(this).css("background-color","orange");
+    });
+
   console.log("Grid complete")
 });
